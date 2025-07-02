@@ -1,0 +1,109 @@
+body{
+    /* width: 1600px; */
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px auto;
+}
+
+#hero-title, #hero-description {
+    color: #FFFFFF;
+    background:  #6C5B61ff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+#hero-title{
+    font-size: 50px;
+}
+
+#hero-description{
+    font-size: 25px;
+}
+
+.hero {
+    height: 800px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN2udjSUb3QOf3ZjcF1QjGqae8CbGQ1f2zufEl4DQ8ReipJ6SF-ye4YqP-40NbAfSTeQQMTlNM8xc8-2cFvIdIp5MMU1A5_yYe6ie4s2X5-eomLqjFNehsMipoxAWXH5pOkCcAQhboXJPDLc690IQQWrEW9ZygF0qNOLWawxp36BJcqa59w_lNKnN4cw/s1600/133547716_1536734933194164_8504384798206912034_n.jpg");
+    background-size: cover;
+    filter: saturate(50%);
+}
+
+.to-do{
+    background-color: rgb(255, 247, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 49, 59);
+
+}
+
+#to-do-title{
+    margin: 50px 0;
+}
+
+.activity-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgb(136, 136, 136);
+
+}
+
+.activities{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.activity{
+
+}
+
+.activity-title{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+}
+
+.activity-description{
+    padding: 0 20px 0 20px;
+    margin: 0 0 60px 0;
+    font-size: large;
+}
+
+.card-avatar {
+    width: 450px;
+    height: 350px;
+    background-image: url("https://femina.wwmindia.com/content/2018/apr/leadimage1524128775.jpg");
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.card {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-radius: 15px;
+    border-bottom: 10px solid #15006b;
+}
+
+.tour-guide{
+    padding: 100px;
+}
