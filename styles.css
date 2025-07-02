@@ -43,12 +43,10 @@ body{
     justify-content: center;
     align-items: center;
     color: rgb(14, 49, 59);
+    padding: 50px 0;
 
 }
 
-#to-do-title{
-    margin: 50px 0;
-}
 
 .activity-image{
     width: 150px;
